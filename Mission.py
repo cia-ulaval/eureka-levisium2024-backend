@@ -4,8 +4,7 @@ import random
 class Mission:
     # liste des points de départ et d'arrivée possibles
     MISSIONS: list[list[[int, int], [int, int]]] = [
-        [[4, 9], [21, 18]],
-        [[20, 18], [9, 9]]
+        [[4, 9], [21, 18]]
     ]
 
     def __init__(self):
